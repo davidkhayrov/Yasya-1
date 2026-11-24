@@ -8,7 +8,7 @@ import CelebrationOverlay from '@/components/CelebrationOverlay';
 const BIRTHDAY_DATE = new Date(2026, 10, 30, 0, 0, 0); // месяц 10 = ноябрь (0-индексация)
 
 // URL следующего сайта в поздравительной цепочке
-const NEXT_SITE_URL = 'https://example.com';
+const NEXT_SITE_URL = 'https://yasya-2.vercel.app/';
 
 function useCountdownReached(target: Date): boolean {
   const [reached, setReached] = useState(() => new Date().getTime() >= target.getTime());
